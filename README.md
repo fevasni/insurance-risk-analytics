@@ -1,6 +1,4 @@
-import base64
-
-readme_content = """# Insurance Risk Analytics: Exploratory Data Analysis (EDA)
+"""# Insurance Risk Analytics: Exploratory Data Analysis (EDA)
 
 This project focuses on analyzing historical insurance data to identify patterns, geographic trends, and financial risks. The goal is to provide data-driven insights into premium pricing and claim frequency.
 
