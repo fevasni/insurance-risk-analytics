@@ -1,0 +1,15 @@
+stages:
+  clean_data:
+    cmd: python src/preprocess.py --input data/insurance_data.csv --output data/cleaned_insurance_data.csv
+    deps:
+      - data/insurance_data.csv
+      - src/preprocess.py
+    outs:
+      - data/cleaned_insurance_data.csv
+  visualize_eda:
+    cmd: python src/gen_eda_notebook.py --input data/cleaned_insurance_data.csv --out-dir notebooks/plots/
+    deps:
+      - data/cleaned_insurance_data.csv
+      - src/gen_eda_notebook.py
+    outs:
+      - notebooks/plots/
