@@ -1,0 +1,15 @@
+BUSINESS RECOMMENDATIONS
+====================================================================================================
+
+1. Province-based Risk Adjustment:
+   We reject H₀ for Province (p < 0.05). Gauteng exhibits a 54.9% claim frequency difference compared to Western Cape, suggesting that province is a significant risk driver. A pricing adjustment based on province may be warranted.
+
+2. Postal Code-based Risk Adjustment (Claim Severity):
+   We fail to reject H₀ for Postal Code (p = 0.7002). There is no statistically significant difference in claim severity between Postal 2000 and Postal 122. Current pricing for postal code appears adequate.
+
+3. Postal Code-based Margin Adjustment:
+   We fail to reject H₀ for Postal Code (p = 0.2445). There is no statistically significant difference in margin between Postal 2000 and Postal 122. Current pricing for postal code appears adequate.
+
+4. Gender-based Risk Adjustment:
+   We fail to reject H₀ for Gender (p = 0.8405). There is no statistically significant difference in claim frequency between Male and Female. Current pricing for gender appears adequate.
+
